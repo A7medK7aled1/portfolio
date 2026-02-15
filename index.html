@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Khaled Gamal | Flutter Developer</title>
+    <meta name="description"
+        content="Portfolio of Ahmed Khaled Gamal, a Flutter Developer specializing in high-performance mobile apps and clean architecture.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Cursor Follower -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">AK<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <!-- <li><a href="https://drive.google.com/file/d/1g69N9ylJ02hGRvngxpU9QkAw7PDG0BTV/view?usp=sharing"
+                        class="nav-link" target="_blank">Resume</a></li> -->
+                <!-- <li><a href="#testimonials" class="nav-link">Testimonials</a></li> -->
+                <li><a href="#contact" class="nav-link btn-secondary">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <p class="hero-greeting">Hi, I'm</p>
+                <h1 class="hero-name">Ahmed Khaled Gamal.</h1>
+                <h2 class="hero-title">I build <span class="highlight typed-text"></span></h2>
+                <p class="hero-description">
+                    I design and develop scalable Flutter applications using Clean Architecture and advanced state
+                    management to transform
+                    complex requirements into fast, reliable, and user-centric mobile solutions.
+                </p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                    <a href="https://drive.google.com/file/d/1g69N9ylJ02hGRvngxpU9QkAw7PDG0BTV/view?usp=sharing"
+                        class="btn btn-outline" target="_blank">View CV <i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <!-- Hero Visual/Graphic could go here, for now using CSS background shapes -->
+            <div class="hero-visual">
+                <div class="code-block-decoration">
+                    <div class="window-controls">
+                        <span></span><span></span><span></span>
+                    </div>
+                    <pre><code class="language-dart">
+class FlutterDev {
+  final String name = "Ahmed";
+  final String role = "Mobile Engineer";
+  
+  void buildAwesomeApps() {
+    print("Clean Architecture");
+    print("High Performance"); 
+  }
+}
+                    </code></pre>
+                </div>
+            </div>
+        </div>
+
+        <a href="#about" class="scroll-down">
+            <i class="fa-solid fa-chevron-down"></i>
+        </a>
+    </header>
+
+    <!-- Statistics Section -->
+    <section class="stats">
+        <div class="container stats-container">
+            <div class="stat-item fade-in-up">
+                <span class="stat-number" data-target="10">0</span>
+                <span class="stat-label">Projects Built</span>
+            </div>
+            <div class="stat-item fade-in-up" style="transition-delay: 100ms;">
+                <span class="stat-number" data-target="2">0</span>
+                <span class="stat-label">Years Experience</span>
+            </div>
+            <div class="stat-item fade-in-up" style="transition-delay: 200ms;">
+                <span class="stat-number" data-target="15">0</span>
+                <span class="stat-label">Technologies</span>
+            </div>
+            <div class="stat-item fade-in-up" style="transition-delay: 300ms;">
+                <span class="stat-number" data-target="100">0</span><span class="plus">+</span>
+                <span class="stat-label">Commits</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title fade-in-up"><span class="number">01.</span> About Me</h2>
+            <div class="about-content">
+                <div class="about-text fade-in-up">
+                    <p>
+                        Hello! I'm Ahmed, a Flutter Developer based in Egypt with a strong background in Communication &
+                        Electronics Engineering. My engineering foundation shaped the way I approach software — with
+                        precision, structure, and performance in mind.
+                    </p>
+                    <p>
+                        Currently working as an RF Drive Test Engineer, I specialize in analyzing complex systems,
+                        optimizing performance, and solving critical issues — a mindset I bring directly into mobile
+                        development.
+                    </p>
+                    <p>
+                        I don’t just write code — I design scalable, high-performance applications using Clean
+                        Architecture and Bloc/Cubit state management, ensuring every product I build is reliable,
+                        maintainable, and built to last.
+                    </p>
+                </div>
+                <div class="about-image fade-in-up">
+                    <div class="img-wrapper">
+                        <!-- Placeholder for user image if provided, using a stylish avatar for now or code graphic -->
+                        <div class="avatar-placeholder">
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title fade-in-up"><span class="number">02.</span> Technical Arsenal</h2>
+
+            <div class="skills-grid">
+                <!-- Mobile Dev -->
+                <div class="skill-category fade-in-up">
+                    <h3><i class="fa-brands fa-android"></i> Mobile Development</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Flutter</span>
+                        <span class="skill-tag">Dart</span>
+                        <span class="skill-tag">Android</span>
+                        <span class="skill-tag">iOS</span>
+                    </div>
+                </div>
+
+                <!-- State Management -->
+                <div class="skill-category fade-in-up" style="transition-delay: 100ms;">
+                    <h3><i class="fa-solid fa-sitemap"></i> State Management</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Bloc</span>
+                        <span class="skill-tag">Cubit</span>
+                        <span class="skill-tag">Provider</span>
+                        <span class="skill-tag">Riverpod</span>
+                    </div>
+                </div>
+
+                <!-- Architecture -->
+                <div class="skill-category fade-in-up" style="transition-delay: 200ms;">
+                    <h3><i class="fa-solid fa-layer-group"></i> Architecture</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Clean Architecture</span>
+                        <span class="skill-tag">MVVM</span>
+                        <span class="skill-tag">SOLID Principles</span>
+                        <span class="skill-tag">Design Patterns</span>
+                    </div>
+                </div>
+
+                <!-- Backend & APIs -->
+                <div class="skill-category fade-in-up" style="transition-delay: 300ms;">
+                    <h3><i class="fa-solid fa-cloud"></i> Backend & APIs</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">RESTful APIs</span>
+                        <span class="skill-tag">Dio</span>
+                        <span class="skill-tag">Firebase</span>
+                        <span class="skill-tag">HTTP</span>
+                    </div>
+                </div>
+
+                <!-- Languages & Tools -->
+                <div class="skill-category fade-in-up" style="transition-delay: 400ms;">
+                    <h3><i class="fa-solid fa-code"></i> Core & Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">C / C++</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Git & GitHub</span>
+                        <span class="skill-tag">Linux</span>
+                        <span class="skill-tag">Hive</span>
+                        <span class="skill-tag">Sqflite</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="section-title fade-in-up"><span class="number">03.</span> Featured Projects</h2>
+
+            <div class="projects-grid">
+
+                <!-- Project 1: News App -->
+                <div class="project-card fade-in-up">
+                    <div class="project-header">
+                        <div class="folder-icon"><i class="fa-regular fa-newspaper"></i></div>
+                        <div class="project-links">
+                            <a href="https://github.com/A7medK7aled1" target="_blank" title="GitHub Repo"><i
+                                    class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">News App</h3>
+                    <p class="project-desc">A real-time news aggregation application fetching data from global APIs.
+                        Features category filtering, search functionality, and a smooth reading experience with WebView
+                        integration.</p>
+                    <ul class="project-tech-list">
+                        <li>Flutter</li>
+                        <li>Dio</li>
+                        <li>NewsAPI</li>
+                        <li>WebView</li>
+                    </ul>
+                </div>
+
+                <!-- Project 2: Weather App -->
+                <div class="project-card fade-in-up" style="transition-delay: 100ms;">
+                    <div class="project-header">
+                        <div class="folder-icon"><i class="fa-solid fa-cloud-sun"></i></div>
+                        <div class="project-links">
+                            <a href="https://github.com/A7medK7aled1" target="_blank" title="GitHub Repo"><i
+                                    class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Weather App</h3>
+                    <p class="project-desc">Advanced weather forecasting tool providing real-time data based on user
+                        location. Implements complex UI animations for different weather states and detailed metrics.
+                    </p>
+                    <ul class="project-tech-list">
+                        <li>Flutter</li>
+                        <li>Location Services</li>
+                        <li>WeatherAPI</li>
+                        <li>Clean UI</li>
+                    </ul>
+                </div>
+
+                <!-- Project 3: Chat App -->
+                <div class="project-card fade-in-up" style="transition-delay: 200ms;">
+                    <div class="project-header">
+                        <div class="folder-icon"><i class="fa-regular fa-comments"></i></div>
+                        <div class="project-links">
+                            <a href="https://github.com/A7medK7aled1" target="_blank" title="GitHub Repo"><i
+                                    class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Real-time Chat App</h3>
+                    <p class="project-desc">A robust messaging platform featuring instant delivery, user authentication,
+                        and media sharing. Built with a focus on scalability and real-time data synchronization.</p>
+                    <ul class="project-tech-list">
+                        <li>Flutter</li>
+                        <li>Firebase Auth</li>
+                        <li>Firestore</li>
+                        <li>Cloud Storage</li>
+                    </ul>
+                </div>
+
+                <!-- Project 4: E-Commerce App -->
+                <div class="project-card fade-in-up">
+                    <div class="project-header">
+                        <div class="folder-icon"><i class="fa-solid fa-bag-shopping"></i></div>
+                        <div class="project-links">
+                            <a href="https://github.com/A7medK7aled1" target="_blank" title="GitHub Repo"><i
+                                    class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">E-Commerce App</h3>
+                    <p class="project-desc">Full-featured shopping application with product browsing, cart management,
+                        and profile editing. Demonstrates complex state management and API integration.</p>
+                    <ul class="project-tech-list">
+                        <li>Flutter</li>
+                        <li>Rest API</li>
+                        <li>State Management</li>
+                        <li>Grid Layouts</li>
+                    </ul>
+                </div>
+
+                <!-- Project 5: Note App -->
+                <div class="project-card fade-in-up" style="transition-delay: 100ms;">
+                    <div class="project-header">
+                        <div class="folder-icon"><i class="fa-regular fa-note-sticky"></i></div>
+                        <div class="project-links">
+                            <a href="https://github.com/A7medK7aled1" target="_blank" title="GitHub Repo"><i
+                                    class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Offline Note App</h3>
+                    <p class="project-desc">A local-first productivity tool allowing users to create, edit, and delete
+                        notes. Uses Hive for blazing fast local storage and persistence.</p>
+                    <ul class="project-tech-list">
+                        <li>Flutter</li>
+                        <li>Hive DB</li>
+                        <li>CRUD Operations</li>
+                        <li>Local Storage</li>
+                    </ul>
+                </div>
+
+                <!-- Project 6: QR Code Scanner -->
+                <div class="project-card fade-in-up" style="transition-delay: 200ms;">
+                    <div class="project-header">
+                        <div class="folder-icon"><i class="fa-solid fa-qrcode"></i></div>
+                        <div class="project-links">
+                            <a href="https://github.com/A7medK7aled1" target="_blank" title="GitHub Repo"><i
+                                    class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">QR Scanner & Generator</h3>
+                    <p class="project-desc">Utility tool for instant barcode/QR scanning and generating custom QR codes.
+                        Optimized for camera performance and quick recognition.</p>
+                    <ul class="project-tech-list">
+                        <li>Flutter</li>
+                        <li>Camera API</li>
+                        <li>QR/Barcode Libs</li>
+                        <li>Share Functionality</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="view-more-container">
+                <a href="https://github.com/A7medK7aled1" target="_blank" class="btn btn-outline">View More on
+                    GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section experience">
+        <div class="container">
+            <h2 class="section-title fade-in-up"><span class="number">04.</span> Experience</h2>
+
+            <div class="timeline">
+                <div class="timeline-item fade-in-up">
+                    <div class="timeline-content">
+                        <div class="timeline-date">Feb 2024 - Present</div>
+                        <h3 class="timeline-role">RF Drive Test Engineer</h3>
+                        <h4 class="timeline-company">Red Telecom</h4>
+                        <ul class="timeline-tasks">
+                            <li>Diagnosing complex telecom network issues to ensure optimal signal quality.</li>
+                            <li>Analyzing network parameters and performance KPIs to improve reliability.</li>
+                            <li>Optimizing coverage and capacity for better user experience.</li>
+                            <li>Applying rigorous troubleshooting methodologies, directly transferable to debugging
+                                complex software systems.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section services">
+        <div class="container">
+            <h2 class="section-title fade-in-up"><span class="number">05.</span> What I Do</h2>
+            <div class="services-grid">
+                <div class="service-card fade-in-up">
+                    <i class="fa-solid fa-mobile-button service-icon"></i>
+                    <h3>Flutter App Development</h3>
+                    <p>Building cross-platform mobile applications with native performance and beautiful UIs.</p>
+                </div>
+                <div class="service-card fade-in-up" style="transition-delay: 100ms;">
+                    <i class="fa-solid fa-code-branch service-icon"></i>
+                    <h3>API Integration</h3>
+                    <p>Connecting apps to RESTful services and third-party libraries for dynamic content.</p>
+                </div>
+                <div class="service-card fade-in-up" style="transition-delay: 200ms;">
+                    <i class="fa-solid fa-fire service-icon"></i>
+                    <h3>Firebase Solutions</h3>
+                    <p>Implementing authentication, real-time databases, and cloud functions for serverless backends.
+                    </p>
+                </div>
+                <div class="service-card fade-in-up" style="transition-delay: 300ms;">
+                    <i class="fa-solid fa-microchip service-icon"></i>
+                    <h3>Clean Architecture</h3>
+                    <p>Structuring codebases for scalability, testability, and long-term maintainability.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials">
+        <div class="container">
+            <h2 class="section-title fade-in-up"><span class="number">06.</span> Client Stories</h2>
+            <div class="testimonials-grid">
+                <!-- Review 1 -->
+                <div class="testimonial-card fade-in-up">
+                    <div class="testimonial-header">
+                        <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">
+                        "Ahmed transformed our buggy MVP into a high-performance production app. His knowledge of Clean
+                        Architecture made scaling our codebase effortless. Truly a top-tier engineer."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MS</div>
+                        <div class="author-info">
+                            <h4>Michael Scott</h4>
+                            <span>CTO at TechFlow</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Review 2 -->
+                <div class="testimonial-card fade-in-up" style="transition-delay: 100ms;">
+                    <div class="testimonial-header">
+                        <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">
+                        "Reliable, communicative, and technically brilliant. He solved complex state management issues
+                        we were struggling with for weeks. Highly recommended!"
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SJ</div>
+                        <div class="author-info">
+                            <h4>Sarah Johnson</h4>
+                            <span>Product Manager</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Review 3 -->
+                <div class="testimonial-card fade-in-up" style="transition-delay: 200ms;">
+                    <div class="testimonial-header">
+                        <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">
+                        "The attention to detail in the UI/UX implementation was outstanding. The app feels incredibly
+                        native and smooth on both iOS and Android."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">DK</div>
+                        <div class="author-info">
+                            <h4>David Kim</h4>
+                            <span>Founder at StartUp X</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Review 4 -->
+                <div class="testimonial-card fade-in-up" style="transition-delay: 300ms;">
+                    <div class="testimonial-header">
+                        <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">
+                        "Ahmed is one of those rare developers who understands business requirements as well as deep
+                        technical concepts. A pleasure to work with."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">EL</div>
+                        <div class="author-info">
+                            <h4>Emma Lee</h4>
+                            <span>Senior Engineer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container contact-container">
+            <h2 class="section-title fade-in-up"><span class="number">07.</span> Get In Touch</h2>
+            <p class="contact-text fade-in-up">
+                I'm currently looking for new opportunities as a Flutter Developer. Whether you have a question or just
+                want to say hi, my inbox is always open.
+            </p>
+
+            <div class="contact-wrapper fade-in-up">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="mailto:ahmedkhaledgamal30@gmail.com">ahmedkhaledgamal30@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="https://wa.me/201012174433" target="_blank">+20 101 217 4433</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>Mansoura, Egypt (Open to Relocation)</span>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <p class="form-status" id="formStatus"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="social-links">
+            <a href="https://github.com/A7medK7aled1" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://linkedin.com/in/ahmedkhaled30" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="mailto:ahmedkhaledgamal30@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+        <p class="copyright">Designed & Built by Ahmed Khaled Gamal © 2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
