@@ -32,12 +32,10 @@
             <a href="#" class="logo">AK<span>.</span></a>
             <ul class="nav-links">
                 <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
                 <li><a href="#skills" class="nav-link">Skills</a></li>
-                <li><a href="#projects" class="nav-link">Projects</a></li>
                 <li><a href="#experience" class="nav-link">Experience</a></li>
-                <!-- <li><a href="https://drive.google.com/file/d/1g69N9ylJ02hGRvngxpU9QkAw7PDG0BTV/view?usp=sharing"
-                        class="nav-link" target="_blank">Resume</a></li> -->
-                <!-- <li><a href="#testimonials" class="nav-link">Testimonials</a></li> -->
+                <li><a href="#projects" class="nav-link">Projects</a></li>
                 <li><a href="#contact" class="nav-link btn-secondary">Contact</a></li>
             </ul>
             <div class="hamburger">
@@ -95,28 +93,6 @@ class FlutterDev {
         </a>
     </header>
 
-    <!-- Statistics Section -->
-    <section class="stats">
-        <div class="container stats-container">
-            <div class="stat-item fade-in-up">
-                <span class="stat-number" data-target="10">0</span>
-                <span class="stat-label">Projects Built</span>
-            </div>
-            <div class="stat-item fade-in-up" style="transition-delay: 100ms;">
-                <span class="stat-number" data-target="2">0</span>
-                <span class="stat-label">Years Experience</span>
-            </div>
-            <div class="stat-item fade-in-up" style="transition-delay: 200ms;">
-                <span class="stat-number" data-target="15">0</span>
-                <span class="stat-label">Technologies</span>
-            </div>
-            <div class="stat-item fade-in-up" style="transition-delay: 300ms;">
-                <span class="stat-number" data-target="100">0</span><span class="plus">+</span>
-                <span class="stat-label">Commits</span>
-            </div>
-        </div>
-    </section>
-
     <!-- About Section -->
     <section id="about" class="section about">
         <div class="container">
@@ -151,10 +127,31 @@ class FlutterDev {
         </div>
     </section>
 
+    <!-- Education Section (New) -->
+    <section id="education" class="section experience">
+        <div class="container">
+            <h2 class="section-title fade-in-up"><span class="number">02.</span> Education</h2>
+            <div class="timeline">
+                <div class="timeline-item fade-in-up">
+                    <div class="timeline-content">
+                        <div class="timeline-date">10/2017 – 07/2022</div>
+                        <h3 class="timeline-role">Bachelorʼs Degree in Communication and Electronics Engineering</h3>
+                        <h4 class="timeline-company">Faculty of Engineering, Nile Higher Institute for Engineering and
+                            Technology</h4>
+                        <ul class="timeline-tasks">
+                            <li>Cumulative Grade: Very Good</li>
+                            <li>Graduation Project: Hydroponic Vertical Farm (Grade: Excellent)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Skills Section -->
     <section id="skills" class="section skills">
         <div class="container">
-            <h2 class="section-title fade-in-up"><span class="number">02.</span> Technical Arsenal</h2>
+            <h2 class="section-title fade-in-up"><span class="number">03.</span> Technical Arsenal</h2>
 
             <div class="skills-grid">
                 <!-- Mobile Dev -->
@@ -217,10 +214,64 @@ class FlutterDev {
         </div>
     </section>
 
-    <!-- Projects Section -->
+    <!-- Experience Section (Renumbered) -->
+    <section id="experience" class="section experience">
+        <div class="container">
+            <h2 class="section-title fade-in-up"><span class="number">04.</span> Experience</h2>
+
+            <div class="timeline">
+                <div class="timeline-item fade-in-up">
+                    <div class="timeline-content">
+                        <div class="timeline-date">Feb 2024 - Present</div>
+                        <h3 class="timeline-role">RF Drive Test Engineer</h3>
+                        <h4 class="timeline-company">Red Telecom</h4>
+                        <ul class="timeline-tasks">
+                            <li>Diagnosing complex telecom network issues to ensure optimal signal quality.</li>
+                            <li>Analyzing network parameters and performance KPIs to improve reliability.</li>
+                            <li>Optimizing coverage and capacity for better user experience.</li>
+                            <li>Applying rigorous troubleshooting methodologies, directly transferable to debugging
+                                complex software systems.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section (Moved Up & Renumbered) -->
+    <section class="section services">
+        <div class="container">
+            <h2 class="section-title fade-in-up"><span class="number">05.</span> What I Do</h2>
+            <div class="services-grid">
+                <div class="service-card fade-in-up">
+                    <i class="fa-solid fa-mobile-button service-icon"></i>
+                    <h3>Flutter App Development</h3>
+                    <p>Building cross-platform mobile applications with native performance and beautiful UIs.</p>
+                </div>
+                <div class="service-card fade-in-up" style="transition-delay: 100ms;">
+                    <i class="fa-solid fa-code-branch service-icon"></i>
+                    <h3>API Integration</h3>
+                    <p>Connecting apps to RESTful services and third-party libraries for dynamic content.</p>
+                </div>
+                <div class="service-card fade-in-up" style="transition-delay: 200ms;">
+                    <i class="fa-solid fa-fire service-icon"></i>
+                    <h3>Firebase Solutions</h3>
+                    <p>Implementing authentication, real-time databases, and cloud functions for serverless backends.
+                    </p>
+                </div>
+                <div class="service-card fade-in-up" style="transition-delay: 300ms;">
+                    <i class="fa-solid fa-microchip service-icon"></i>
+                    <h3>Clean Architecture</h3>
+                    <p>Structuring codebases for scalability, testability, and long-term maintainability.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section (Moved Down & Renumbered) -->
     <section id="projects" class="section projects">
         <div class="container">
-            <h2 class="section-title fade-in-up"><span class="number">03.</span> Featured Projects</h2>
+            <h2 class="section-title fade-in-up"><span class="number">06.</span> Featured Projects</h2>
 
             <div class="projects-grid">
 
@@ -355,55 +406,26 @@ class FlutterDev {
         </div>
     </section>
 
-    <!-- Experience Section -->
-    <section id="experience" class="section experience">
+    <!-- Achievements Section (Stats Moved Here) -->
+    <section class="section stats" style="background-color: transparent; padding-top: 0;">
         <div class="container">
-            <h2 class="section-title fade-in-up"><span class="number">04.</span> Experience</h2>
-
-            <div class="timeline">
-                <div class="timeline-item fade-in-up">
-                    <div class="timeline-content">
-                        <div class="timeline-date">Feb 2024 - Present</div>
-                        <h3 class="timeline-role">RF Drive Test Engineer</h3>
-                        <h4 class="timeline-company">Red Telecom</h4>
-                        <ul class="timeline-tasks">
-                            <li>Diagnosing complex telecom network issues to ensure optimal signal quality.</li>
-                            <li>Analyzing network parameters and performance KPIs to improve reliability.</li>
-                            <li>Optimizing coverage and capacity for better user experience.</li>
-                            <li>Applying rigorous troubleshooting methodologies, directly transferable to debugging
-                                complex software systems.</li>
-                        </ul>
-                    </div>
+            <h2 class="section-title fade-in-up"><span class="number">07.</span> Achievements</h2>
+            <div class="stats-container" style="justify-content: center; gap: 50px;">
+                <div class="stat-item fade-in-up">
+                    <span class="stat-number" data-target="10">0</span>
+                    <span class="stat-label">Projects Built</span>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Services Section -->
-    <section class="section services">
-        <div class="container">
-            <h2 class="section-title fade-in-up"><span class="number">05.</span> What I Do</h2>
-            <div class="services-grid">
-                <div class="service-card fade-in-up">
-                    <i class="fa-solid fa-mobile-button service-icon"></i>
-                    <h3>Flutter App Development</h3>
-                    <p>Building cross-platform mobile applications with native performance and beautiful UIs.</p>
+                <div class="stat-item fade-in-up" style="transition-delay: 100ms;">
+                    <span class="stat-number" data-target="2">0</span>
+                    <span class="stat-label">Years Experience</span>
                 </div>
-                <div class="service-card fade-in-up" style="transition-delay: 100ms;">
-                    <i class="fa-solid fa-code-branch service-icon"></i>
-                    <h3>API Integration</h3>
-                    <p>Connecting apps to RESTful services and third-party libraries for dynamic content.</p>
+                <div class="stat-item fade-in-up" style="transition-delay: 200ms;">
+                    <span class="stat-number" data-target="15">0</span>
+                    <span class="stat-label">Technologies</span>
                 </div>
-                <div class="service-card fade-in-up" style="transition-delay: 200ms;">
-                    <i class="fa-solid fa-fire service-icon"></i>
-                    <h3>Firebase Solutions</h3>
-                    <p>Implementing authentication, real-time databases, and cloud functions for serverless backends.
-                    </p>
-                </div>
-                <div class="service-card fade-in-up" style="transition-delay: 300ms;">
-                    <i class="fa-solid fa-microchip service-icon"></i>
-                    <h3>Clean Architecture</h3>
-                    <p>Structuring codebases for scalability, testability, and long-term maintainability.</p>
+                <div class="stat-item fade-in-up" style="transition-delay: 300ms;">
+                    <span class="stat-number" data-target="100">0</span><span class="plus">+</span>
+                    <span class="stat-label">Commits</span>
                 </div>
             </div>
         </div>
@@ -412,7 +434,7 @@ class FlutterDev {
     <!-- Testimonials Section -->
     <section class="section testimonials">
         <div class="container">
-            <h2 class="section-title fade-in-up"><span class="number">06.</span> Client Stories</h2>
+            <h2 class="section-title fade-in-up"><span class="number">08.</span> Client Stories</h2>
             <div class="testimonials-grid">
                 <!-- Review 1 -->
                 <div class="testimonial-card fade-in-up">
@@ -520,7 +542,7 @@ class FlutterDev {
     <!-- Contact Section -->
     <section id="contact" class="section contact">
         <div class="container contact-container">
-            <h2 class="section-title fade-in-up"><span class="number">07.</span> Get In Touch</h2>
+            <h2 class="section-title fade-in-up"><span class="number">09.</span> Get In Touch</h2>
             <p class="contact-text fade-in-up">
                 I'm currently looking for new opportunities as a Flutter Developer. Whether you have a question or just
                 want to say hi, my inbox is always open.
